@@ -35,5 +35,12 @@ Each concrete state class implements the VendingMachineState interface, providin
 Update VendingMachine Class:
 Include attributes for item inventory and balance.
 Remove state-specific logic from the VendingMachine class.
+
 Introduce a reference to the current VendingMachineState object.
 Delegate actions like selectItem, insertCoin, dispenseItem, and setOutOfOrder to the current state object through its corresponding methods.
+
+
+UML CLASS DIAGRAM:
+![statedesignUML](https://github.com/user-attachments/assets/5864673d-5a40-4726-b471-93abddf74fc7)
+
+
